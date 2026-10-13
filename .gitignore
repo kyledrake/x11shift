@@ -1,0 +1,15 @@
+x11shift
+src/x11shift-resources.c
+tests/test_schedule
+tests/test_gamma
+tests/test_resume
+*.o
+*.deb
+*.build
+*.buildinfo
+*.changes
+debian/.debhelper/
+debian/debhelper-build-stamp
+debian/files
+debian/x11shift/
+debian/x11shift.substvars

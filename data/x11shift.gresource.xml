@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/io/x11shift/X11Shift">
+    <file alias="x11shift.svg">x11shift.svg</file>
+  </gresource>
+</gresources>

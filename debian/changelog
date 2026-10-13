@@ -1,0 +1,55 @@
+x11shift (1.1.6-1) unstable; urgency=medium
+
+  * Retain native LUT calibration in the X11 session before adjusting colors.
+  * Recover from leftover night tint after an interrupted process, including
+    when starting disabled, instead of capturing it as the original colors.
+  * Preserve independently changed color profiles during restart recovery.
+  * Cover daylight recovery, disabled startup, and interrupted LUT updates.
+
+ -- X11Shift Developers <maintainers@x11shift.invalid>  Sat, 10 Oct 2026 09:30:00 -0500
+
+x11shift (1.1.5-1) unstable; urgency=medium
+
+  * Use native GAMMA_LUT output properties when available so color changes
+    reach the GPU on AMD Xorg sessions with ineffective legacy gamma writes.
+  * Preserve native calibration across toggles, reconnects, and shutdown.
+  * Reset both native lookup tables and legacy gamma ramps with --reset.
+
+ -- X11Shift Developers <maintainers@x11shift.invalid>  Fri, 09 Oct 2026 22:52:00 -0500
+
+x11shift (1.1.4-1) unstable; urgency=medium
+
+  * Refresh the current schedule immediately after resume from suspend.
+  * Preserve original display colors across reconfiguration and reconnects.
+  * Show transition direction, progress, and time remaining in the status
+    panel and tray tooltip.
+
+ -- X11Shift Developers <maintainers@x11shift.invalid>  Fri, 11 Sep 2026 23:39:00 -0500
+
+x11shift (1.1.3-1) unstable; urgency=medium
+
+  * Avoid incorrect solar times when latitude and longitude are unset.
+  * Fall back to custom day/night times until a location is entered.
+  * Avoid leaving an invisible process behind when reopening the application.
+
+ -- X11Shift Developers <maintainers@x11shift.invalid>  Thu, 03 Sep 2026 16:35:00 -0500
+
+x11shift (1.1.2-1) unstable; urgency=medium
+
+  * Show the complete settings panel without a scrolling viewport.
+  * Prevent mouse-wheel input from accidentally changing controls.
+
+ -- X11Shift Developers <maintainers@x11shift.invalid>  Tue, 11 Aug 2026 10:30:00 -0500
+
+x11shift (1.1.1-1) unstable; urgency=medium
+
+  * Add a button that restores color and brightness defaults.
+  * Embed the application icon for reliable window and tray display.
+
+ -- X11Shift Developers <maintainers@x11shift.invalid>  Tue, 11 Aug 2026 09:30:00 -0500
+
+x11shift (1.1.0-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- X11Shift Developers <maintainers@x11shift.invalid>  Tue, 11 Aug 2026 00:00:00 -0500

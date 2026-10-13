@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=X11Shift
+GenericName=Display Color Temperature
+Comment=Warm your screen colors after sunset
+Exec=x11shift
+Icon=x11shift
+Terminal=false
+Categories=Settings;GTK;
+Keywords=night;light;color;temperature;gamma;redshift;flux;display;
+StartupNotify=true
+StartupWMClass=x11shift
+
